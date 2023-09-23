@@ -29,7 +29,9 @@ cd lammps20230802
 
 mkdir build; cd build
 
-make -D PKG_KSPACE=yes -D PKG_AQPMD=yes -D FFT_FFTW_THREADS=on  ../cmake
+cmake -D PKG_KSPACE=yes -D PKG_AQPMD=yes -D FFT_FFTW_THREADS=on  ../cmake
+
+make -j24
 
 # UO2 in 1000K
 
