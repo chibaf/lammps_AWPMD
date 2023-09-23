@@ -3,7 +3,11 @@ AWPMD of lammps
 
 # installation of lammps
 
-## fftw
+## clang-format
+
+sudo apt install clang-format
+
+## fftw3
 
 tar -xf fftw-3.3.10.tar.gz 
 
@@ -16,6 +20,8 @@ tar -xf fftw-3.3.10.tar.gz
  1937  make check
  
  1938  sudo make install
+
+ ## lammps
 
 git clone -b release https://github.com/lammps/lammps.git /DATA/lammps20230802
 
