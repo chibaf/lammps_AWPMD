@@ -36,3 +36,7 @@ make -D PKG_KSPACE=yes -D PKG_AQPMD=yes -D FFT_FFTW_THREADS=on  ../cmake
 python3 fcc111.py > data.fcc111
 
 mpirun -np 12 /DATA/lammps20230802/build/lmp < in.1000
+
+UO2 at 1000K of a fcc 111 latice cut with a slant plane - YouTube
+
+https://www.youtube.com/shorts/GqAvuTLb8YI
